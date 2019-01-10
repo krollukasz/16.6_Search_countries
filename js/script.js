@@ -18,3 +18,13 @@ function searchCountries() {
     })
     .then(showCountriesList);
 }
+
+// Show countries function
+function showCountriesList(resp) {
+  countriesList.innerHTML = "";
+  resp.forEach(function(item) {
+    var listElement = document.createElement("li");
+    listElement.innerText = item.name;
+    countriesList.appendChild(listElement);
+  });
+}
