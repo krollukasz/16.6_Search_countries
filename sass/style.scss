@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Skranji:400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-image: url("../images/map.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Skranji", cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  background: #c9c9c9;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid green;
+}
+
+.search-button {
+  width: 150px;
+  height: 30px;
+  font-family: "Skranji", cursive;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0 0 30px;
+  padding-left: 50px;
+  width: 300px;
+  list-style-type: none;
+}
